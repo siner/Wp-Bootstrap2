@@ -1,0 +1,171 @@
+/*
+Theme Name: WP-Bootstrap2
+Theme URI: http://wpbootstrap2.franmoreno.com
+Author: Fran Moreno
+Author URI: http://www.franmoreno.com
+Description: WordPress Theme based on Twitter Bootstrap.
+Version: 1.0
+License: The Unlicense
+License URI: LICENSE
+Tags: HTML5, responsive, Bootstrap
+*/
+
+
+
+/* Default Theme */
+/* ----------------------------------------- */
+
+
+/* General styles */
+body {}
+
+
+	
+/* Container */
+.container{}
+
+
+
+/* Header */
+
+
+#topnavbar .navbar-inner{border-radius: 0;}
+.menu-header-menu-container{display: none;}
+
+
+#head{}
+#head hgroup{}
+#head hgroup h1{}
+#head hgroup h1 a{}	
+#head hgroup h2{}
+
+#head nav{}
+#head nav ul{}
+#head nav ul li{}
+#head nav ul li a{} 
+#head nav ul li a:hover{}
+
+/* Center section */
+#center{
+}
+
+
+/* Main Content */
+#content{}
+#content article{}
+
+	/* The post header */
+	#content article header{}	
+	#content article header a{}
+
+	#content article header h1,
+	#content article header h2 a{}
+	#content article header .info{}
+
+		
+		
+	/* The post content */	
+	#content article .thecontent{}
+	#content article .thecontent p{}
+
+	/* The content footer */
+	#content article footer{}
+	#content article footer .edit{}
+	#content article footer .categories{}
+	#content article footer .tags{}
+
+
+/* Pagination */
+
+#pagination{}
+#pagination .next, #pagination .previous{}
+#pagination .current{}
+#pagination a{}
+#pagination a:hover{}
+
+
+/* Comments section in single */
+
+#comments{}
+#comments h3{}
+
+
+	/* Comment list */
+	#comments li .comment-body{}
+	#comments li.even > .comment-body{}
+	#comments li.odd > .comment-body{}
+	#comments li.depth-1 .comment-body{}
+	#comments li.depth-2 .comment-body{}
+	#comments li.depth-3 .comment-body{}
+	#comments li.depth-4 .comment-body{}
+	#comments li.depth-5 .comment-body{}
+
+	/* Comment info */
+	#comments .comment-author{}
+	#comments .comment-author img{}
+	#comments .comment-meta{}
+	#comments p{}
+	#comments .reply{}
+
+	/* Comment form */
+	#respond p{}
+	#respond label{}
+	#respond .required{}
+	#respond input, #respond textarea{}
+	#respond #submit{}
+	#respond textarea{ }
+	#respond .form-allowed-tags{}
+
+
+
+/* Sidebar */
+#sidebar{}
+#sidebar input{width: auto;}
+#sidebar aside{}
+#sidebar h3{}
+#sidebar ul{}
+#sidebar ul li{}
+#sidebar ul li a{}
+#sidebar ul li a:hover{}
+
+
+
+/* Hook to preserve the sidebar style */
+#sidebar #recentcomments, #sidebar #recentcomments li{ list-style: none; margin-left: 0;}
+#sidebar #recentcomments li{border: 1px solid #DDD; -webkit-border-radius: 0;-moz-border-radius: 0;border-radius: 0;padding: 9px 12px;line-height: 14px;}
+#sidebar #recentcomments li:last-child{-webkit-border-radius: 0 0 4px 4px;-moz-border-radius: 0 0 4px 4px;border-radius: 0 0 4px 4px;}
+#sidebar #recentcomments li:first-child > a {-webkit-border-radius: 4px 4px 0 0;-moz-border-radius: 4px 4px 0 0;border-radius: 4px 4px 0 0;}
+#sidebar .textwidget{-webkit-border-radius: 4px;-moz-border-radius: 4px;border-radius: 4px; padding: 9px 12px; border: solid 1px #ddd;}
+
+	/* Custom sidebar sections */
+
+	#sidebar .search{}
+	#sidebar .search h3{}
+	#sidebar .search #s{}
+	#sidebar .search #searchsubmit{}
+	#sidebar .categories{}
+	#sidebar .tags{}
+	#sidebar .tags nav{}
+	#sidebar .tags a{}
+	#sidebar .tags a:hover{}
+	#sidebar .links{}
+	
+
+/* Footer */
+	
+#colophon{ margin-top: 20px;}
+
+
+
+
+/* Custom sections */
+
+.index{}
+.archive{}
+.single{}
+.page{}
+.error404{}
+.author{}	
+
+
+
